@@ -7,7 +7,7 @@ A Computer Science graduate and Full-Stack Developer specializing in AI/ML, Pyth
 
 ## Links
 
-> **Live Demo:** [Click to view](https://hafsamaryam.vercel.app/) 
+> **Live Demo:** [Click to view](https://hafsa-maryam.vercel.app/) 
 > **Resume:** [Download my Resume](./public/Hafsa_Resume.pdf)
 
 ## Tech Stack
