@@ -22,11 +22,11 @@ To run this project locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/hafsamaryam08/Port-Folio.git
+   git clone https://github.com/hafsamaryam08/Portfolio.git
    ```
 2. **Navigate to directory:**
    ```bash
-   cd Port-Folio
+   cd Portfolio
    ```
 3. **Install dependencies:**
    ```bash
