@@ -203,7 +203,7 @@ const HeroSection = () => {
               <div className="mt-5 md:mt-6 flex items-center gap-4">
                 <div className="h-[1px] w-8 sm:w-12 bg-green-500/50" />
                 <p className="text-[9px] sm:text-[10px] md:text-xs font-medium uppercase tracking-[0.3em] text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400 drop-shadow-[0_0_15px_rgba(16,185,129,0.2)]">
-                  Full-Stack Developer <span className="mx-2 text-white/20">|</span> AI/ML Engineer <span className="mx-2 text-white/20">|</span> Python Developer <span className="mx-2 text-white/20">|</span> Software Engineer
+                  AI/ML Engineer <span className="mx-2 text-white/20">|</span> Python Developer <span className="mx-2 text-white/20">|</span> Software Engineer <span className="mx-2 text-white/20">|</span> Full-Stack Developer
                 </p>
               </div>
             </FadeIn>
