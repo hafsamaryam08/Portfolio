@@ -43,7 +43,7 @@ const EducationSection = () => {
                   <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3 text-white/60 text-sm sm:text-base font-medium">
                     <span className="text-white/80">COMSATS University Islamabad</span>
                     <span className="hidden sm:inline text-white/30"></span>
-                    {/* <span>Bahawalnagar Campus</span> */}
+                    {/* <span>Sahiwal Campus</span> */}
                   </div>
                   <div className="text-[#10b981]/80 text-sm sm:text-base font-semibold mt-1">
                     Timeline: 2022 – 2026

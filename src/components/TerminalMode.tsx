@@ -29,7 +29,7 @@ const TerminalMode = () => {
     },
     {
       keywords: ['experience', 'education', 'background', 'university', 'comsats', 'internship'],
-      response: "> QUERY MATCH: 'EXPERIENCE & EDUCATION'\n> EDUCATION: BS Computer Science at COMSATS University Islamabad, Bahawalnagar Campus.\n> OBJECTIVE: Eager to build intelligent, real-world solutions in an AI/ML or software engineering role.\n> COURSEWORK: Agentic AI Bootcamp, Intro to Python, CS50x."
+      response: "> QUERY MATCH: 'EXPERIENCE & EDUCATION'\n> EDUCATION: BS Computer Science at COMSATS University Islamabad, Sahiwal Campus.\n> OBJECTIVE: Eager to build intelligent, real-world solutions in an AI/ML or software engineering role.\n> COURSEWORK: Agentic AI Bootcamp, Intro to Python, CS50x."
     },
     {
       keywords: ['contact', 'email', 'phone', 'hire', 'reach', 'github', 'linkedin'],

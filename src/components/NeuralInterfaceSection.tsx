@@ -20,7 +20,7 @@ const KNOWLEDGE_BASE = [
   },
   {
     keywords: ['experience', 'education', 'background', 'university', 'comsats', 'internship'],
-    response: "> QUERY MATCH: 'EXPERIENCE & EDUCATION'\n> EDUCATION: BS Computer Science at COMSATS University Islamabad, Bahawalnagar Campus.\n> OBJECTIVE: Eager to build intelligent, real-world solutions in an AI/ML or software engineering role.\n> COURSEWORK: Agentic AI Bootcamp, Intro to Python, CS50x."
+    response: "> QUERY MATCH: 'EXPERIENCE & EDUCATION'\n> EDUCATION: BS Computer Science at COMSATS University Islamabad, Sahiwal Campus.\n> OBJECTIVE: Eager to build intelligent, real-world solutions in an AI/ML or software engineering role.\n> COURSEWORK: Agentic AI Bootcamp, Intro to Python, CS50x."
   },
   {
     keywords: ['contact', 'email', 'phone', 'hire', 'reach', 'github', 'linkedin'],
@@ -152,7 +152,7 @@ PROJECTS
    - Built a content-based recommendation system in Python using Scikit-learn on a Kaggle dataset. Applied cosine similarity to compare anime based on genres, descriptions, and synopses. Deployed a Streamlit dashboard.
 
 EDUCATION
-- Bachelor of Science in Computer Science — COMSATS University Islamabad, Bahawalnagar Campus (2022 - 2026) | CGPA: 3.61/4.00
+- Bachelor of Science in Computer Science — COMSATS University Islamabad, Sahiwal Campus (2022 - 2026) | CGPA: 3.61/4.00
 
 COURSEWORK
 - Complete Agentic AI Bootcamp With LangGraph and LangChain (Udemy, 2025)
