@@ -5,26 +5,26 @@ import ScrambleText from './ScrambleText';
 
 const NAV_LINKS = [
   { label: 'About', href: '#about' },
-  { label: 'Skills', href: '#services' },
+  { label: 'Skills', href: '#skills' },
   { label: 'Experience', href: '#experience' },
   { label: 'Projects', href: '#projects' },
   { label: 'Education', href: '#education' },
-  { label: 'Events', href: '#events' },
   { label: 'Certifications', href: '#certifications' },
+  { label: 'Events', href: '#events' },
   { label: 'Contact', href: '#contact' },
 ];
 
 const HTTP_CODES = [
-  "200 OK", 
-  "201 CREATED", 
-  "202 ACCEPTED", 
-  "301 MOVED", 
-  "400 BAD REQ", 
-  "401 UNAUTH", 
-  "403 FORBIDDEN", 
-  "404 NOT FOUND", 
-  "418 TEAPOT", 
-  "500 ERROR", 
+  "200 OK",
+  "201 CREATED",
+  "202 ACCEPTED",
+  "301 MOVED",
+  "400 BAD REQ",
+  "401 UNAUTH",
+  "403 FORBIDDEN",
+  "404 NOT FOUND",
+  "418 TEAPOT",
+  "500 ERROR",
   "502 BAD GATE"
 ];
 
@@ -91,7 +91,7 @@ const HeroSection = () => {
     <section ref={sectionRef} className="relative h-[100dvh] min-h-[600px] w-full overflow-hidden bg-black">
 
       {/* Background Image */}
-      <div 
+      <div
         className="absolute inset-0 pointer-events-none"
         style={{
           backgroundImage: "url('/bg.jpg')",
@@ -118,12 +118,13 @@ const HeroSection = () => {
         <header className="fixed inset-x-0 z-[90] w-full pointer-events-none transition-all duration-[1000ms] ease-[cubic-bezier(0.23,1,0.32,1)] top-6 sm:top-8">
           <FadeIn delay={0} y={-20}>
             <div className="relative mx-auto flex items-center justify-between md:justify-center w-full h-10 px-6 md:px-0 pointer-events-auto">
-              
+
               {/* Mobile Header (Hidden on Desktop) */}
-              <div className="flex md:hidden items-center justify-between w-full">
-                {/* Left: Status Code Badge */}
-                <div className="flex items-center rounded-full border border-white/10 bg-black/40 backdrop-blur-md px-3.5 py-1 shadow-sm">
-                  <span className="relative flex h-1.5 w-1.5 mr-2">
+              <div className="flex md:hidden items-center justify-end w-full">
+                {/* Left: Status Code Badge (Commented out per request) */}
+                {/*
+                <div className="flex items-center gap-3 px-4 py-1.5 rounded-full border border-white/10 bg-black/40 backdrop-blur-md shadow-[0_0_15px_rgba(255,255,255,0.05)]">
+                  <span className="relative flex h-1.5 w-1.5">
                     <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-500 opacity-60"></span>
                     <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-green-500"></span>
                   </span>
@@ -131,6 +132,7 @@ const HeroSection = () => {
                     {HTTP_CODES[statusIndex]}
                   </span>
                 </div>
+                */}
 
                 {/* Right: Hamburger button */}
                 <button
@@ -147,31 +149,33 @@ const HeroSection = () => {
               </div>
 
               {/* Highly Refined Integrated Navbar (Desktop Only) */}
-              <nav className="absolute transition-all duration-[1000ms] ease-[cubic-bezier(0.23,1,0.32,1)] hidden md:flex items-center rounded-full border border-white/5 bg-transparent backdrop-blur-sm shadow-sm px-5 py-0.5 sm:px-8 sm:py-1 left-1/2 -translate-x-1/2 scale-100 opacity-100 origin-top">
-                
-                {/* Integrated Badge */}
+              <nav className="absolute transition-all duration-[1000ms] ease-[cubic-bezier(0.23,1,0.32,1)] hidden md:flex items-center rounded-full border border-white/5 bg-transparent backdrop-blur-sm shadow-sm px-5 py-0.5 sm:px-6 sm:py-1 left-1/2 -translate-x-1/2 scale-100 opacity-100 origin-top">
+
+                {/* Integrated Badge (Commented out per request) */}
+                {/*
                 <div className="overflow-hidden transition-all duration-[1000ms] ease-in-out flex items-center max-w-[200px] opacity-100 px-5 sm:px-6 border-r border-white/10 mr-1 sm:mr-2">
                   <span className="relative flex h-2 w-2 mr-3">
                     <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-500 opacity-60"></span>
                     <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500"></span>
                   </span>
-                  <span 
-                    key={HTTP_CODES[statusIndex]} 
+                  <span
+                    key={HTTP_CODES[statusIndex]}
                     className="w-24 sm:w-32 text-[10px] sm:text-[11px] font-mono font-bold uppercase tracking-[0.2em] text-white/90 whitespace-nowrap animate-[pulseFade_1s_ease-in-out]"
                   >
                     {HTTP_CODES[statusIndex]}
                   </span>
                 </div>
+                */}
 
                 <ul className="flex items-center gap-1 sm:gap-2">
                   {NAV_LINKS.map((link) => (
                     <li key={link.label}>
                       <a
                         href={link.href}
-                        className="group relative flex items-center justify-center px-6 py-1.5 sm:px-9 sm:py-1.5 rounded-full text-[11px] sm:text-[13px] font-medium uppercase tracking-[0.15em] text-[#A0AEC0] transition-colors duration-300 hover:text-white"
+                        className="group relative flex items-center justify-center px-3 py-1.5 sm:px-4 sm:py-1.5 rounded-full text-[11px] sm:text-[13px] font-medium uppercase tracking-[0.15em] text-[#A0AEC0] transition-colors duration-300 hover:text-white"
                       >
                         <span className="relative z-10">{link.label}</span>
-                        
+
                         {/* Minimalist Pill Hover */}
                         <span className="absolute inset-0 rounded-full bg-white/[0.06] opacity-0 scale-90 transition-all duration-300 ease-out group-hover:opacity-100 group-hover:scale-100" />
                       </a>
@@ -273,7 +277,7 @@ const HeroSection = () => {
                   SYSTEM_MENU
                 </span>
               </div>
-              
+
               <button
                 onClick={() => setMobileMenuOpen(false)}
                 className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white/80 hover:text-white hover:border-white/20 active:scale-90 transition-all"

@@ -31,7 +31,7 @@ const SERVICES = [
 const ServicesSection = () => {
   return (
     <section
-      id="services"
+      id="skills"
       className="relative w-full bg-white rounded-t-[40px] sm:rounded-t-[50px] md:rounded-t-[60px] px-5 sm:px-8 md:px-10 py-20 sm:py-24 md:py-32"
     >
       <FadeIn y={40}>
@@ -39,7 +39,7 @@ const ServicesSection = () => {
           className="text-center font-black uppercase text-[#0C0C0C] mb-16 sm:mb-20 md:mb-28 leading-none"
           style={{ fontSize: 'clamp(3rem, 12vw, 160px)' }}
         >
-          Services
+          Skills
         </h2>
       </FadeIn>
 
