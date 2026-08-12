@@ -51,7 +51,7 @@ const ContactSection = () => {
     setFormStatus('sending');
 
     try {
-      const response = await fetch('https://formspree.io/f/mbdvngpr', {
+      const response = await fetch('https://formspree.io/f/xyegjgrg', {
         method: 'POST',
         body: new FormData(form),
         headers: {
