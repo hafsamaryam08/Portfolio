@@ -29,7 +29,7 @@ const TerminalMode = () => {
     },
     {
       keywords: ['experience', 'education', 'background', 'university', 'comsats', 'internship'],
-      response: "> QUERY MATCH: 'EXPERIENCE & EDUCATION'\n> EDUCATION: BS Computer Science at COMSATS University Islamabad, Sahiwal Campus.\n> OBJECTIVE: Eager to build intelligent, real-world solutions in an AI/ML or software engineering role.\n> COURSEWORK: Agentic AI Bootcamp, Intro to Python, CS50x."
+      response: "> QUERY MATCH: 'EXPERIENCE & EDUCATION'\n> EDUCATION: BS Computer Science at COMSATS University Islamabad, Bahawalnagar Campus.\n> OBJECTIVE: Eager to build intelligent, real-world solutions in an AI/ML or software engineering role.\n> COURSEWORK: Agentic AI Bootcamp, Intro to Python, CS50x."
     },
     {
       keywords: ['contact', 'email', 'phone', 'hire', 'reach', 'github', 'linkedin'],
@@ -137,7 +137,7 @@ const TerminalMode = () => {
               <div><span className="text-white/50 font-bold">Packages:</span> 4096 (npm), 256 (pip)</div>
               <div><span className="text-white/50 font-bold">Shell:</span> bash 5.1.16</div>
               <div><span className="text-white/50 font-bold">Role:</span> AI/ML & Full-Stack Dev</div>
-              <div><span className="text-white/50 font-bold">Location:</span> Sahiwal, Pakistan</div>
+              <div><span className="text-white/50 font-bold">Location:</span> Bahawalnagar, Pakistan</div>
               <div className="mt-2 flex gap-2 opacity-50">
                 <span className="bg-[#111] w-4 h-4 inline-block" />
                 <span className="bg-[#333] w-4 h-4 inline-block" />

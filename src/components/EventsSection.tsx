@@ -41,12 +41,6 @@ const EventsSection = () => {
             <p className="mt-6 max-w-2xl text-sm md:text-base text-white/60">
               Tech conferences, meetups, and hackathons I've attended.
             </p>
-            <div className="mt-6 flex items-center gap-2 text-[#10b981]/70 text-xs md:text-sm font-medium tracking-widest uppercase animate-pulse">
-              <span>Swipe to explore</span>
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </div>
           </div>
         </FadeIn>
 

@@ -20,7 +20,7 @@ const KNOWLEDGE_BASE = [
   },
   {
     keywords: ['experience', 'education', 'background', 'university', 'comsats', 'internship'],
-    response: "> QUERY MATCH: 'EXPERIENCE & EDUCATION'\n> EDUCATION: BS Computer Science at COMSATS University Islamabad, Sahiwal Campus.\n> OBJECTIVE: Eager to build intelligent, real-world solutions in an AI/ML or software engineering role.\n> COURSEWORK: Agentic AI Bootcamp, Intro to Python, CS50x."
+    response: "> QUERY MATCH: 'EXPERIENCE & EDUCATION'\n> EDUCATION: BS Computer Science at COMSATS University Islamabad, Bahawalnagar Campus.\n> OBJECTIVE: Eager to build intelligent, real-world solutions in an AI/ML or software engineering role.\n> COURSEWORK: Agentic AI Bootcamp, Intro to Python, CS50x."
   },
   {
     keywords: ['contact', 'email', 'phone', 'hire', 'reach', 'github', 'linkedin'],
@@ -126,7 +126,7 @@ Here is Hafsa's exact, up-to-date CV data:
 
 HAFSA MARYAM
 Computer Science Graduate | AI/ML & Full-Stack Developer
-Sahiwal, Pakistan • +92 311 7864771 • hafsamaryam.823@gmail.com • linkedin.com/in/hafsa-maryam08 • github.com/hafsamaryam08
+Bahawalnagar, Pakistan • +92 311 7864771 • hafsamaryam.823@gmail.com • linkedin.com/in/hafsa-maryam08 • github.com/hafsamaryam08
 
 PROFESSIONAL SUMMARY
 Computer Science graduate (CGPA 3.61) with practical experience in AI/ML, full-stack development, and building intelligent applications. Led the development of ARdent Study, an AI-powered learning platform using Python, React, Node.js, and Neo4j, featuring OCR-based concept extraction, a knowledge graph, and 3D visualization. Eager to build intelligent, real-world solutions in an AI/ML or software engineering role.
@@ -152,7 +152,7 @@ PROJECTS
    - Built a content-based recommendation system in Python using Scikit-learn on a Kaggle dataset. Applied cosine similarity to compare anime based on genres, descriptions, and synopses. Deployed a Streamlit dashboard.
 
 EDUCATION
-- Bachelor of Science in Computer Science — COMSATS University Islamabad, Sahiwal Campus (2022 - 2026) | CGPA: 3.61/4.00
+- Bachelor of Science in Computer Science — COMSATS University Islamabad, Bahawalnagar Campus (2022 - 2026) | CGPA: 3.61/4.00
 
 COURSEWORK
 - Complete Agentic AI Bootcamp With LangGraph and LangChain (Udemy, 2025)

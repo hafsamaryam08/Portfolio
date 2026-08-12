@@ -32,7 +32,7 @@ const EXPERIENCES: Experience[] = [
     title: "Technical Team Member",
     company: "Google Developer Student Clubs (GDSC)",
     date: "Aug 2023 – Mar 2024",
-    location: "COMSATS, Sahiwal",
+    location: "COMSATS, Bahawalnagar",
     responsibilities: [
       "Participated in organizing developer workshops, bootcamps, and coding events to support the campus tech community.",
       "Facilitated technical sessions on emerging technologies including AI, Web Development, and Cloud computing.",
@@ -45,7 +45,7 @@ const EXPERIENCES: Experience[] = [
     title: "Designing & Photography Member",
     company: "CFAS - COMSATS Fine Arts & Calligraphy Society",
     date: "2023 - 2025",
-    location: "COMSATS, Sahiwal",
+    location: "COMSATS, Bahawalnagar",
     responsibilities: [
       "Designed creative marketing materials, event posters, and digital assets for society events and exhibitions.",
       "Managed event photography and visual documentation, capturing key moments for social media and archival purposes.",
@@ -58,7 +58,7 @@ const EXPERIENCES: Experience[] = [
     title: "Campus Ambassador",
     company: "Career Connect Pakistan",
     date: "2023 - 2024",
-    location: "COMSATS, Sahiwal",
+    location: "COMSATS, Bahawalnagar",
     responsibilities: [
       "Represented Career Connect Pakistan on campus, driving student engagement and participation in career development programs.",
       "Organized seminars, networking sessions, and career counseling drives to bridge the gap between students and industry professionals.",

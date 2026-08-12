@@ -6,7 +6,7 @@ import { GitHubCalendar } from 'react-github-calendar';
 
 
 const ABOUT_TEXT =
-  "I'm a Computer Science graduate (CGPA 3.61) from COMSATS University Islamabad, Sahiwal Campus, with practical experience in AI/ML, full-stack development, and building intelligent applications. I focus on building scalable web apps, robust AI solutions, and machine learning pipelines. Eager to build intelligent, real-world solutions!";
+  "I'm a Computer Science graduate (CGPA 3.61) from COMSATS University Islamabad, Bahawalnagar Campus, with practical experience in AI/ML, full-stack development, and building intelligent applications. I focus on building scalable web apps, robust AI solutions, and machine learning pipelines. Eager to build intelligent, real-world solutions!";
 
 const AboutSection = () => {
   return (
