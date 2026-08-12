@@ -39,7 +39,7 @@ const PROJECTS: ProjectData[] = [
     liveUrl: 'https://github.com/hafsamaryam08/Anime-Recommender-System',
     col1Image1: '/anime1.png',
     col1Image2: '/anime2.png',
-    col2Image: '/anime3.JPG',
+    col2Image: '/anime3.png',
   },
 ];
 
