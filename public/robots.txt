@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://hafsa-maryam-portfolio.vercel.app/sitemap.xml
+Sitemap: https://hafsamaryam.vercel.app/sitemap.xml
