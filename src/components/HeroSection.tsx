@@ -90,7 +90,16 @@ const HeroSection = () => {
   return (
     <section ref={sectionRef} className="relative h-[100dvh] min-h-[600px] w-full overflow-hidden bg-black">
 
-
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 pointer-events-none"
+        style={{
+          backgroundImage: "url('/bg.jpg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          opacity: 0.6
+        }}
+      />
       {/* Cinematic gradient overlays */}
       <div className="absolute inset-0 transition-colors duration-1000 bg-black/10" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_30%,rgba(0,0,0,0.6)_100%)] pointer-events-none" />
