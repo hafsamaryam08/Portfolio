@@ -1,4 +1,4 @@
-# Hafsa Maryam - Premium Portfolio 🚀
+# Hafsa Maryam - Portfolio 🚀
 
 A highly interactive, cyber-tech themed portfolio built with React, Vite, TailwindCSS, and Framer Motion. 
 
